@@ -165,6 +165,7 @@ ld_flags       = $(LDFLAGS) $(ldflags-y)
 dtc_cpp_flags  = -Wp,-MD,$(depfile).pre.tmp -nostdinc                    \
 		 -I$(srctree)/arch/$(ARCH)/dts                           \
 		 -I$(srctree)/arch/$(ARCH)/dts/include                   \
+		 -I$(srctree)/include                                    \
 		 -undef -D__DTS__
 
 # Finds the multi-part object the current object will be linked into
