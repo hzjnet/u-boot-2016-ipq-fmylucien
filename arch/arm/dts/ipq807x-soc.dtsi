@@ -34,14 +34,14 @@
 		serial_gpio {
 			gpio1 {
 				gpio = <7>;
-				func = <1>;
+				func = <2>;
 				pull = <GPIO_PULL_DOWN>;
 				oe = <GPIO_OE_ENABLE>;
 			};
 
 			gpio2 {
 				gpio = <8>;
-				func = <1>;
+				func = <2>;
 				pull = <GPIO_NO_PULL>;
 				oe = <GPIO_OE_ENABLE>;
 			};
