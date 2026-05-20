@@ -54,6 +54,7 @@ __pycache__/
 #
 !.gitignore
 !.mailmap
+!.github/
 
 #
 # Generated files
