@@ -24,7 +24,7 @@ obj-y	+= virt-v7.o
 obj-y	+= virt-dt.o
 endif
 
-ifneq ($(CONFIG_ARMV7_PSCI),)
+ifneq ($(CONFIG_ARMV7_PSCI)$(CONFIG_ARCH_IPQ40xx)$(CONFIG_ARCH_IPQ5018)$(CONFIG_ARCH_IPQ5332)$(CONFIG_ARCH_IPQ6018)$(CONFIG_ARCH_IPQ806x)$(CONFIG_ARCH_IPQ807x)$(CONFIG_ARCH_IPQ9574),)
 obj-y	+= psci.o
 endif
 
